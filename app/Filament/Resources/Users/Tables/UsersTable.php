@@ -36,11 +36,6 @@ class UsersTable
             ])
             ->recordActions([
                 EditAction::make()
-                    ->modal()
-                    ->schema([
-                        CodeEditor::make('name')
-                        // ...
-                    ]),
             ])
             ->toolbarActions([
                 BulkActionGroup::make([
